@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 #define tab "\t"
@@ -11,8 +11,8 @@ void main()
 {
 	setlocale(LC_ALL, "");
 #ifdef BASICS
-	const int ROWS = 8; // Количество строк 
-	const int COLS = 5; // Количество элементв строки (столбцов)
+	const int ROWS = 8; // РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє 
+	const int COLS = 5; // РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РІ СЃС‚СЂРѕРєРё (СЃС‚РѕР»Р±С†РѕРІ)
 	int arr[ROWS][COLS] =
 	{
 		{1,2,3},
